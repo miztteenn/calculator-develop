@@ -1,0 +1,22 @@
+version: "2"
+plugins:
+  structure:
+    enabled: true
+  duplication:
+    enabled: true
+  shellcheck:
+    enabled: true
+  fixme:
+    enabled: true
+  checkstyle:
+    enabled: true
+  pmd:
+    enabled: true
+  git-legal:
+    enabled: true
+  sonar-java:
+    enabled: true
+exclude_patterns:
+- ".idea/"
+- "target"
+- "*.log"
